@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astro Universe</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Font Awesome Icons -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="Icon" href="assets/img/logo (2).ico">
+</head>
+
+<body>
+
+  <!-- ===================== START BACKGROUND VIDEO ===================== -->
+  <video id="background-video" autoplay loop muted playsinline>
+    <source src="assets/img/background.mp4" type="video/mp4">
+  </video>
+  <!-- ===================== END BACKGROUND VIDEO ======================= -->
+
+
+  <!-- ===================== START NAVBAR ===================== -->
+  <nav class="navbar">
+
+    <!-- Logo Button -->
+    <button class="button">
+      <span class="actual-text">&nbsp;ASTRO&nbsp;</span>
+      <span aria-hidden="true" class="hover-text">&nbsp;ASTRO&nbsp;</span>
+    </button>
+
+    <!-- Mobile Menu Toggle -->
+    <input type="checkbox" id="menu-toggle">
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="index.html" style="color:#66fcf1; text-shadow:0 0 12px #66fcf1,0 0 25px #45a29e; font-weight:bold;">Home</a></li>
+      <li><a href="assets/planet.html">Planets</a></li>
+      <li><a href="assets/stars.html">Stars</a></li>
+      <li><a href="assets/gallery.html">Gallery</a></li>
+      <li><a href="assets/about.html">About</a></li>
+      <li><a href="assets/contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Hamburger Icon -->
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+  </nav>
+  <!-- ===================== END NAVBAR ===================== -->
+
+
+  <!-- ===================== START HERO SECTION ===================== -->
+  <div class="content">
+    <h1>Welcome to Astro Universe</h1>
+    <p>Explore planets, stars, and the mysteries of space.</p>
+
+    <br>
+
+    <div class="button-container">
+      <button class="space-button">
+        <div class="bright-particles"></div>
+        <span><a class="exploreahmeed" href="assets/planet.html">Explore</a></span>
+      </button>
+    </div>
+  </div>
+  <!-- ===================== END HERO SECTION ===================== -->
+
+
+  <!-- ===================== START CATEGORIES SECTION ===================== -->
+  <section id="categories" class="category-section">
+    <h2 data-aos="fade-up">Explore the Universe</h2>
+
+    <div class="category-grid">
+
+      <div class="category-card" data-aos="zoom-in">
+        <i class="fas fa-earth-americas"></i>
+        <h3>Planets</h3>
+        <p>Learn about all 8 planets in our Solar System.</p>
+      </div>
+
+      <div class="category-card" data-aos="zoom-in" data-aos-delay="100">
+        <i class="fas fa-star"></i>
+        <h3>Stars</h3>
+        <p>Discover different types of stars and their life cycles.</p>
+      </div>
+
+      <div class="category-card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fas fa-cloud"></i>
+        <h3>Nebulae</h3>
+        <p>Colorful clouds where stars are born or die.</p>
+      </div>
+
+      <div class="category-card" data-aos="zoom-in" data-aos-delay="300">
+        <i class="fas fa-atom"></i>
+        <h3>Galaxies</h3>
+        <p>Explore billions of galaxies beyond the Milky Way.</p>
+      </div>
+
+      <div class="category-card" data-aos="zoom-in" data-aos-delay="400">
+        <i class="fas fa-circle-radiation"></i>
+        <h3>Black Holes</h3>
+        <p>Mysterious objects that bend space and time.</p>
+      </div>
+
+      <div class="category-card" data-aos="zoom-in" data-aos-delay="500">
+        <i class="fas fa-rocket"></i>
+        <h3>Space Missions</h3>
+        <p>NASA, SpaceX, and ISRO missions exploring space.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- ===================== END CATEGORIES SECTION ===================== -->
+
+
+  <!-- ===================== START UNIVERSE INFO SECTION ===================== -->
+  <section id="universe" class="universe-section">
+    <h2 data-aos="fade-up">Universe Overview</h2>
+
+    <!-- Astronomy Intro -->
+    <div class="info-card" data-aos="fade-right">
+      <img src="assets/img/universe.jpg" alt="Galaxy">
+      <div class="info-content">
+        <h3>What is Astronomy?</h3>
+        <p>
+          Astronomy is the scientific study of the universe beyond Earth. It focuses on understanding objects in space such as planets, stars, moons, galaxies, black holes, and nebulae. Astronomers observe the sky using telescopes and advanced instruments to learn how these objects are formed, how they move, and how they change over time. Astronomy also explores big questions about the origin of the universe, the possibility of life on other planets, and the future of space. It helps us understand our place in the cosmos and reveals the beauty and mysteries of the vast universe.
+        </p>
+      </div>
+    </div>
+
+    <!-- Big Bang -->
+    <div class="info-card" data-aos="fade-left">
+      <img src="assets/img/big bang.jpg" alt="Big Bang">
+      <div class="info-content">
+        <h3>The Birth of the Universe</h3>
+        <p>
+          The birth of the universe began with the <strong>Big Bang</strong> about <strong>13.8 billion years ago</strong>. At first, everything was packed into a <strong>tiny</strong>, extremely hot and dense point, and then it <strong>expanded rapidly</strong>, creating <strong>space</strong>, <strong>time</strong>, <strong>matter</strong>, and energy. As the universe cooled, particles combined into <strong>atoms</strong>, which later formed <strong>stars</strong> and <strong>galaxies</strong>. Over billions of years, those stars produced <strong>heavier elements</strong> that eventually made <strong>planets</strong> and, ultimately, <strong>life</strong>.
+        </p>
+      </div>
+    </div>
+
+    <!-- Solar System -->
+    <div class="info-card" data-aos="fade-right">
+      <img src="assets/img/solar system.jpg" alt="Solar System">
+      <div class="info-content">
+        <h3>The Solar System</h3>
+        <p>
+          The <strong>Solar System</strong> is a vast and dynamic region of space centered around the <strong>Sun</strong>, a powerful star that provides light and energy to all surrounding planets. It contains <strong>eight planets</strong>, including Earth, along with their <strong>moons</strong>, mysterious <strong>asteroids</strong>, icy <strong>comets</strong>, and countless smaller objects. Formed about <strong>4.6 billion years ago</strong>, the Solar System continues to evolve as planets orbit in graceful motion around the Sun.
+        </p>
+      </div>
+    </div>
+
+    <!-- Stars -->
+    <div class="info-card" data-aos="fade-left">
+      <img src="assets/img/strars.jpg" alt="Stars">
+      <div class="info-content">
+        <h3>Stars</h3>
+        <p>
+          <strong>Stars</strong> are massive, glowing spheres of hot gas that shine with incredible energy. Born inside enormous <strong>nebulae</strong>, they form when clouds of gas and dust collapse under their own gravity. At their core, stars produce light and heat through <strong>nuclear fusion</strong>. Stars come in many sizes and colors, from small red dwarfs to gigantic <strong>supergiants</strong>. Over time, they evolve, grow old, and eventually end their lives in spectacular ways.
+        </p>
+      </div>
+    </div>
+
+    <!-- Black Holes -->
+    <div class="info-card" data-aos="fade-right">
+      <img src="assets/img/black hole.jpg" alt="Black Hole">
+      <div class="info-content">
+        <h3>Black Holes</h3>
+        <p>
+          <strong>Black Holes</strong> are some of the most mysterious objects in the universe. They form when massive stars collapse, creating a region where gravity becomes so strong that <strong>nothing</strong> can escape. Black holes bend <strong>space and time</strong>, distort light, and influence the movement of nearby objects.
+        </p>
+      </div>
+    </div>
+
+    <!-- ===================== START HIGHLIGHTS SECTION ===================== -->
+    <section class="highlights-section">
+      <h2 data-aos="fade-up">Universe Highlights</h2>
+
+      <div class="category-grid">
+
+        <div class="category-card" data-aos="zoom-in">
+          <img src="assets/img/nebula.jpg" alt="Nebula" style="width:100%; border-radius:12px;">
+          <h3>Nebula Wonders</h3>
+          <p>Stunning nebulae where new stars are born.</p>
+        </div>
+
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="assets/img/glaxy stars.jpg" alt="Galaxy" style="width:100%; border-radius:12px;">
+          <h3>Galactic Beauty</h3>
+          <p>Explore colorful galaxies far across the cosmos.</p>
+        </div>
+
+        <div class="category-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/space mission.jpg" alt="Mission" style="width:100%; border-radius:12px;">
+          <h3>Space Missions</h3>
+          <p>Recent missions by NASA, SpaceX, and ISRO.</p>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ===================== END HIGHLIGHTS SECTION ===================== -->
+
+  </section>
+  <!-- ===================== END UNIVERSE INFO SECTION ===================== -->
+
+
+  <!-- ===================== START FOOTER ===================== -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-vertical">
+          <li><a href="index.html" style="color:#66fcf1; text-shadow:0 0 12px #66fcf1,0 0 25px #45a29e; font-weight:bold;">Home</a></li>
+          <li><a href="assets/planet.html">Planets</a></li>
+          <li><a href="assets/stars.html">Stars</a></li>
+          <li><a href="assets/about.html">About</a></li>
+          <li><a href="assets/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@astrouniverse.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Space Ave, Galaxy City</p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe for astronomy updates:</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+
+    <p class="footer-bottom">© 2025 Astro Universe. All rights reserved.</p>
+
+  </footer>
+  <!-- ===================== END FOOTER ===================== -->
+
+</body>
+</html>
