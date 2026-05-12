@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stars | Astro Universe</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../assets/css/star.css">
+  <link rel="preload" href="../assets/css/style.css" as="style">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="Icon" href="../assets/img/logo (2).ico">
+</head>
+<body>
+  <!-- Background Video -->
+  <video id="background-video" autoplay loop muted playsinline>
+    <source src="../assets/img/background.mp4" type="video/mp4">
+  </video>
+
+  <!-- Navbar Start -->
+  <nav class="navbar">
+    <button class="button">
+      <span class="actual-text">&nbsp;Astro&nbsp;</span>
+      <span aria-hidden="true" class="hover-text">&nbsp;Astro&nbsp;</span>
+    </button>
+
+    <input type="checkbox" id="menu-toggle">
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="planet.html">Planets</a></li>
+      <li><a href="stars.html" style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">Stars</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Hero Section Start -->
+  <section class="stars-hero">
+    <h1 class="hero-title" data-aos="fade-up">Stars</h1>
+    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+      From tiny red dwarfs to massive blue giants – the engines of the universe.
+    </p>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Star Types Section Start – 3D Flip Cards -->
+  <section class="star-grid">
+    <!-- Star Card Template Start -->
+    <div class="star-card sun" data-aos="zoom-in" data-aos-delay="100">
+      <div class="star-card-inner">
+        <div class="star-card-front">
+          <div class="star-visual"></div>
+          <h3>The Sun</h3>
+          <p>G2V Yellow Dwarf</p>
+          <p>5,778 K • 1 M⊙ • 1 R⊙</p>
+        </div>
+        <div class="star-card-back">
+          <p>Our life-giving star. Powers Earth for 4.6 billion years. Will become a white dwarf in 5 billion years.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Star Card Template End -->
+
+    <div class="star-card sirius" data-aos="zoom-in" data-aos-delay="200">
+      <div class="star-card-inner">
+        <div class="star-card-front">
+          <div class="star-visual"></div>
+          <h3>Sirius</h3>
+          <p>A1V White Star</p>
+          <p>9,940 K • 2.02 M⊙ • 1.71 R⊙</p>
+        </div>
+        <div class="star-card-back">
+          <p>Brightest star in the night sky. Actually a binary system with Sirius B, a white dwarf companion.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="star-card betelgeuse" data-aos="zoom-in" data-aos-delay="300">
+      <div class="star-card-inner">
+        <div class="star-card-front">
+          <div class="star-visual"></div>
+          <h3>Betelgeuse</h3>
+          <p>M1-2Ia Red Supergiant</p>
+          <p>3,500 K • 11.6 M⊙ • 887 R⊙</p>
+        </div>
+        <div class="star-card-back">
+          <p>Will explode as a supernova within 100,000 years. Visible from 640 light-years away.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="star-card rigel" data-aos="zoom-in" data-aos-delay="400">
+      <div class="star-card-inner">
+        <div class="star-card-front">
+          <div class="star-visual"></div>
+          <h3>Rigel</h3>
+          <p>B8Ia Blue Supergiant</p>
+          <p>12,100 K • 21 M⊙ • 78.9 R⊙</p>
+        </div>
+        <div class="star-card-back">
+          <p>One of the most luminous stars. 120,000 times brighter than the Sun.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="star-card proxima" data-aos="zoom-in" data-aos-delay="500">
+      <div class="star-card-inner">
+        <div class="star-card-front">
+          <div class="star-visual"></div>
+          <h3>Proxima Centauri</h3>
+          <p>M5.5Ve Red Dwarf</p>
+          <p>3,042 K • 0.122 M⊙ • 0.154 R⊙</p>
+        </div>
+        <div class="star-card-back">
+          <p>Closest star to the Sun (4.24 light-years). Hosts potentially habitable exoplanet.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="star-card vega" data-aos="zoom-in" data-aos-delay="600">
+      <div class="star-card-inner">
+        <div class="star-card-front">
+          <div class="star-visual"></div>
+          <h3>Vega</h3>
+          <p>A0V White Star</p>
+          <p>9,602 K • 2.14 M⊙ • 2.36 R⊙</p>
+        </div>
+        <div class="star-card-back">
+          <p>Used as a standard for stellar brightness. Has a debris disk – possible planet formation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Star Types Section End -->
+
+  <!-- Star Lifecycle Section Start -->
+  <section id="star-lifecycle" class="star-lifecycle-section">
+    <h2 data-aos="fade-up">The Lifecycle of a Star</h2>
+    <div class="lifecycle-grid">
+      <div class="lifecycle-card" data-aos="fade-right">
+        <img src="../assets/img/nebula.jpg" alt="Nebula">
+        <h3>Nebula</h3>
+        <p>A nebula is a cloud of gas and dust where new stars are born.</p>
+      </div>
+
+      <div class="lifecycle-card" data-aos="fade-left">
+        <img src="../assets/img/protostars.jpg" alt="Protostar">
+        <h3>Protostar</h3>
+        <p>Gravity pulls the nebula's gas together to form a protostar.</p>
+      </div>
+
+      <div class="lifecycle-card" data-aos="fade-right">
+        <img src="../assets/img/super star.jpg" alt="Main Sequence Star">
+        <h3>Main Sequence</h3>
+        <p>The star fuses hydrogen into helium, shining steadily for billions of years.</p>
+      </div>
+
+      <div class="lifecycle-card" data-aos="fade-left">
+        <img src="../assets/img/red gaint.jpg" alt="Red Giant">
+        <h3>Red Giant / Supergiant</h3>
+        <p>Stars expand and cool after hydrogen fuel runs out, becoming giants or supergiants.</p>
+      </div>
+
+      <div class="lifecycle-card" data-aos="fade-right">
+        <img src="../assets/img/supernova.jpg" alt="Supernova">
+        <h3>Supernova</h3>
+        <p>The star explodes, scattering elements into space, forming new stars and planets.</p>
+      </div>
+
+      <div class="lifecycle-card" data-aos="fade-left">
+        <img src="../assets/img/black hole.jpg" alt="Neutron Star / Black Hole">
+        <h3>Neutron Star / Black Hole</h3>
+        <p>Depending on its mass, the star leaves behind a neutron star or a black hole.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Star Lifecycle Section End -->
+
+  <!-- Star Facts Section Start -->
+  <section id="star-facts" class="star-facts-section">
+    <h2 data-aos="fade-up">Interesting Facts About Stars</h2>
+    <div class="facts-list" data-aos="fade-up" data-aos-delay="100">
+      <p>Stars are born in nebulae, massive clouds of gas and dust in space.</p>
+      <p>The closest star to Earth is the Sun, which is a medium-sized main sequence star.</p>
+      <p>Some stars are so massive that they burn out quickly, living only a few million years.</p>
+      <p>A teaspoon of a neutron star would weigh around a billion tons on Earth.</p>
+      <p>The largest known stars, called supergiants, are over 1,000 times larger than the Sun.</p>
+      <p>Stars create heavier elements through nuclear fusion, which are the building blocks for planets and life.</p>
+    </div>
+  </section>
+  <!-- Star Facts Section End -->
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-vertical">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="planet.html">Planets</a></li>
+          <li><a href="stars.html" style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">Stars</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@astrouniverse.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Space Ave, Galaxy City</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe for astronomy updates:</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Astro Universe. All rights reserved.</p>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- AOS Init -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, easing: 'ease-out-quart', once: true });
+  </script>
+</body>
+</html>

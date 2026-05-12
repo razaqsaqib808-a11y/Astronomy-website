@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planets - Astro</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/planet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="Icon" href="../assets/img/logo (2).ico">
+</head>
+<body>
+
+  <!-- =========================
+       Navbar
+  ========================= -->
+  <nav class="navbar">
+    <button class="button">
+      <span class="actual-text">&nbsp;ASTRO&nbsp;</span>
+      <span aria-hidden="true" class="hover-text">&nbsp;ASTRO&nbsp;</span>
+    </button>
+
+    <input type="checkbox" id="menu-toggle">
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="planet.html"  style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">Planets</a></li>
+      <li><a href="stars.html">Stars</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </nav>
+
+  <!-- =========================
+       Planet Slider
+  ========================= -->
+  <div class="planet-slider" id="planetSlider">
+
+    <!-- Mercury -->
+    <div class="planet-slide" id="mercury">
+      <video autoplay loop muted playsinline src="../assets/img/MERCURY.mp4"></video>
+      <div class="planet-content">
+        <h2>Mercury</h2>
+        <p>Mercury is the closest planet to the Sun and the smallest planet in our Solar System. It has no atmosphere and extreme temperature variations.</p>
+      </div>
+    </div>
+
+    <!-- Venus -->
+    <div class="planet-slide" id="venus">
+      <video autoplay loop muted playsinline src="../assets/img/VENUS.mp4"></video>
+      <div class="planet-content">
+        <h2>Venus</h2>
+        <p>Venus is similar in size to Earth but has a toxic atmosphere mostly of carbon dioxide and surface temperatures hot enough to melt lead.</p>
+      </div>
+    </div>
+
+    <!-- Earth -->
+    <div class="planet-slide" id="earth">
+      <video autoplay loop muted playsinline src="../assets/img/EARTH.mp4"></video>
+      <div class="planet-content">
+        <h2>Earth</h2>
+        <p>Earth is the only planet known to support life, with water covering 71% of its surface and a breathable atmosphere of nitrogen and oxygen.</p>
+      </div>
+    </div>
+
+    <!-- Mars -->
+    <div class="planet-slide" id="mars">
+      <video autoplay loop muted playsinline src="../assets/img/MARS.mp4"></video>
+      <div class="planet-content">
+        <h2>Mars</h2>
+        <p>Mars is known as the Red Planet due to iron oxide on its surface. It has the tallest volcano and a canyon system bigger than Earth's.</p>
+      </div>
+    </div>
+
+    <!-- Jupiter -->
+    <div class="planet-slide" id="jupiter">
+      <video autoplay loop muted playsinline src="../assets/img/JUPITOR.mp4"></video>
+      <div class="planet-content">
+        <h2>Jupiter</h2>
+        <p>Jupiter is the largest planet in our Solar System, a gas giant with a strong magnetic field and dozens of moons including Europa and Ganymede.</p>
+      </div>
+    </div>
+
+    <!-- Saturn -->
+    <div class="planet-slide" id="saturn">
+      <video autoplay loop muted playsinline src="../assets/img/SATURN.mp4"></video>
+      <div class="planet-content">
+        <h2>Saturn</h2>
+        <p>Saturn is famous for its spectacular ring system made of ice and rock. It is a gas giant with at least 82 moons.</p>
+      </div>
+    </div>
+
+    <!-- Uranus -->
+    <div class="planet-slide" id="uranus">
+      <video autoplay loop muted playsinline src="../assets/img/URANUS.mp4"></video>
+      <div class="planet-content">
+        <h2>Uranus</h2>
+        <p>Uranus is an ice giant with a blue-green color due to methane in its atmosphere. It rotates on its side and has faint rings.</p>
+      </div>
+    </div>
+
+    <!-- Neptune -->
+    <div class="planet-slide" id="neptune">
+      <video autoplay loop muted playsinline src="../assets/img/NEPTUNE.mp4"></video>
+      <div class="planet-content">
+        <h2>Neptune</h2>
+        <p>Neptune is the farthest planet from the Sun, an ice giant with strong winds and storms. Triton is its largest moon.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- =========================
+       Dots Navigation
+  ========================= -->
+  <div class="dots" id="dotsNav">
+    <div class="dot active" data-target="mercury"></div>
+    <div class="dot" data-target="venus"></div>
+    <div class="dot" data-target="earth"></div>
+    <div class="dot" data-target="mars"></div>
+    <div class="dot" data-target="jupiter"></div>
+    <div class="dot" data-target="saturn"></div>
+    <div class="dot" data-target="uranus"></div>
+    <div class="dot" data-target="neptune"></div>
+  </div>
+
+  <!-- =========================
+       Footer
+  ========================= -->
+  <footer class="footer">
+    <div class="footer-container">
+      
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-vertical">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="planet.html"  style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">Planets</a></li>
+          <li><a href="stars.html">Stars</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@astrouniverse.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Space Ave, Galaxy City</p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+    <p class="footer-bottom">© 2025 Astro Universe. All rights reserved.</p>
+  </footer>
+
+  <!-- =========================
+       JS for Dots Navigation
+  ========================= -->
+  <script>
+    const dots = document.querySelectorAll('.dot');
+    const slides = document.querySelectorAll('.planet-slide');
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        const targetId = dot.getAttribute('data-target');
+        const targetSlide = document.getElementById(targetId);
+        targetSlide.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    const slider = document.getElementById('planetSlider');
+    slider.addEventListener('scroll', () => {
+      let currentIndex = 0;
+      slides.forEach((slide, index) => {
+        const rect = slide.getBoundingClientRect();
+        if (rect.top <= window.innerHeight/2 && rect.bottom >= window.innerHeight/2) {
+          currentIndex = index;
+        }
+      });
+      dots.forEach(dot => dot.classList.remove('active'));
+      dots[currentIndex].classList.add('active');
+    });
+  </script>
+
+</body>
+</html>

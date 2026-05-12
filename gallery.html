@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Astro Universe</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/gallaery.css">
+    <link rel="Icon" href="../assets/img/logo (2).ico">
+
+  <!-- AOS Animation & Font Awesome Icons -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Background Video -->
+  <video id="background-video" autoplay loop muted playsinline>
+    <source src="../assets/img/background.mp4" type="video/mp4">
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <!-- Logo Button -->
+    <button class="button">
+      <span class="actual-text">&nbsp;ASTRO&nbsp;</span>
+      <span aria-hidden="true" class="hover-text">&nbsp;ASTRO&nbsp;</span>
+    </button>
+
+    <!-- Hamburger Menu Checkbox -->
+    <input type="checkbox" id="menu-toggle">
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="planet.html">Planets</a></li>
+      <li><a href="stars.html">Stars</a></li>
+      <li>
+        <a href="gallery.html" style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">
+          Gallery
+        </a>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- Hamburger Icon -->
+    <label for="menu-toggle" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="stars-hero">
+    <h1 class="hero-title" data-aos="fade-up">Gallery</h1>
+    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+      A breathtaking collection of nebulae, galaxies, and celestial wonders.
+    </p>
+  </section>
+
+  <!-- Gallery Grid Section -->
+  <section class="gallery-grid container">
+
+    <!-- Gallery Item Template -->
+    <div class="gallery-item" data-aos="fade-up">
+      <img src="../assets/img/nebula.jpg" alt="Orion Nebula">
+      <div class="item-overlay">
+        <h3>Orion Nebula</h3>
+        <p>A stellar nursery 1,344 light-years away.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+      <img src="../assets/img/andromeda glaxy.jpg" alt="Andromeda Galaxy">
+      <div class="item-overlay">
+        <h3>Andromeda Galaxy</h3>
+        <p>Our closest spiral neighbor – 2.5 million light-years.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+      <img src="../assets/img/black hole.jpg" alt="Black Hole">
+      <div class="item-overlay">
+        <h3>Event Horizon</h3>
+        <p>Simulated view of a supermassive black hole.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+      <img src="../assets/img/pleiades.jpg" alt="Pleiades Cluster">
+      <div class="item-overlay">
+        <h3>Pleiades</h3>
+        <p>Young star cluster visible to the naked eye.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+      <img src="../assets/img/hubble.jpg" alt="Hubble Deep Field">
+      <div class="item-overlay">
+        <h3>Hubble Ultra Deep Field</h3>
+        <p>10,000 galaxies in a patch of sky the size of a pinhead.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="500">
+      <img src="../assets/img/crab.jpg" alt="Crab Nebula">
+      <div class="item-overlay">
+        <h3>Crab Nebula</h3>
+        <p>A supernova remnant in the constellation Taurus.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="600">
+      <img src="../assets/img/whirlpool.jpg" alt="Whirlpool Galaxy">
+      <div class="item-overlay">
+        <h3>Whirlpool Galaxy</h3>
+        <p>A spiral galaxy located 23 million light-years away.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="700">
+      <img src="../assets/img/sagittian.jpg" alt="Sagittarius A*">
+      <div class="item-overlay">
+        <h3>Sagittarius A*</h3>
+        <p>The supermassive black hole at the center of our Milky Way.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="800">
+      <img src="../assets/img/betele.jpg" alt="Betelgeuse">
+      <div class="item-overlay">
+        <h3>Betelgeuse</h3>
+        <p>Red supergiant star in the Orion constellation.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="900">
+      <img src="../assets/img/eagle.jpg" alt="Eagle Nebula">
+      <div class="item-overlay">
+        <h3>Eagle Nebula</h3>
+        <p>Famous for the "Pillars of Creation".</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="1000">
+      <img src="../assets/img/trangle.jpg" alt="Triangulum Galaxy">
+      <div class="item-overlay">
+        <h3>Triangulum Galaxy</h3>
+        <p>Third-largest member of our Local Group of galaxies.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item" data-aos="fade-up" data-aos-delay="1100">
+      <img src="../assets/img/sirus.jpg" alt="Sirius">
+      <div class="item-overlay">
+        <h3>Sirius</h3>
+        <p>The brightest star in Earth's night sky.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-vertical">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="planet.html">Planets</a></li>
+          <li><a href="stars.html">Stars</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <a href="gallery.html" style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">
+              Gallery
+            </a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@astrouniverse.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Space Ave, Galaxy City</p>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe for astronomy updates:</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <p class="footer-bottom">© 2025 Astro Universe. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, easing: 'ease-out-quart', once: true });
+  </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Astro Universe</title>
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="Icon" href="../assets/img/logo (2).ico">
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video id="background-video" autoplay loop muted playsinline>
+    <source src="./img/background.mp4" type="video/mp4">
+  </video>
+
+  <!-- ✅ Same Navbar as Home Page -->
+  <nav class="navbar">
+    <button class="button">
+      <span class="actual-text">&nbsp;Astro&nbsp;</span>
+      <span aria-hidden="true" class="hover-text">&nbsp;Astro&nbsp;</span>
+    </button>
+
+    <input type="checkbox" id="menu-toggle">
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="planet.html">Planets</a></li>
+      <li><a href="stars.html">Stars</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="container">
+      <h1>About Astro Universe</h1>
+      <p class="intro">
+        At <span>Astro Universe</span>, we are passionate about exploring the mysteries of space. 
+        From galaxies far beyond to the smallest particles of stardust, our mission is to make the cosmos accessible and fascinating for everyone.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card">
+  <i class="fas fa-rocket"></i>
+  <h3>Our Mission</h3>
+  <p>Our mission is to ignite curiosity about the universe. Through this project by EPTech, we aim to share the wonders of astronomy with everyone, bringing cosmic discoveries, facts, and visuals closer to all dreamers on Earth.</p>
+</div>
+
+
+        <div class="about-card">
+  <i class="fas fa-satellite"></i>
+  <h3>Our Vision</h3>
+  <p>Our vision is to bring the universe closer to everyone. Through this project, we aim to merge science and creativity, allowing new generations to explore planets, stars, and galaxies with engaging digital experiences.</p>
+</div>
+
+
+        <div class="about-card">
+  <i class="fas fa-users"></i>
+  <h3>Our Team</h3>
+  <p>This astronomy project was assigned to our team by Eptech. Our dedicated members — Saqib Razaq, Faizan Arain, and Ahmed Shabir — collaborated to create this digital space experience, combining science, design, and creativity.</p>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Preview -->
+  <section class="gallery-preview">
+    <h2>Journey Through the Cosmos</h2>
+    <div class="gallery-grid">
+      <img src="../assets/img/planets.jpg" alt="Planet">
+      <img src="../assets/img/glaxy stars.jpg" alt="Galaxy">
+      <img src="../assets/img/space mission.jpg" alt="Moon">
+      <img src="../assets/img/stars.jpg" alt="Sun">
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-vertical">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="planet.html">Planets</a></li>
+          
+          <li><a href="stars.html">Stars</a></li>
+          <li><a href="about.html"style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@astrouniverse.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Space Ave, Galaxy City</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe for astronomy updates:</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <p class="footer-bottom">© 2025 Astro Universe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

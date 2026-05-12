@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Astro Universe</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="Icon" href="../assets/img/logo (2).ico">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video id="background-video" autoplay loop muted playsinline>
+    <source src="../assets/img/background.mp4" type="video/mp4">
+  </video>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <button class="button">
+      <span class="actual-text">&nbsp;Astro&nbsp;</span>
+      <span aria-hidden="true" class="hover-text">&nbsp;Astro&nbsp;</span>
+    </button>
+
+    <!-- Hamburger for mobile -->
+    <input type="checkbox" id="menu-toggle">
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="planet.html">Planets</a></li>
+      <li><a href="stars.html">Stars</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">Contact</a></li>
+    </ul>
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-container">
+
+      <!-- Section Title -->
+      <h2>Contact Us</h2>
+      <p class="subtitle">Have questions about the universe? Reach out — we’d love to hear from you!</p>
+
+      <!-- Contact Grid -->
+      <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <div class="input-group">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p><i class="fas fa-envelope"></i> info@astrouniverse.com</p>
+          <p><i class="fas fa-phone"></i> +123 456 7890</p>
+          <p><i class="fas fa-map-marker-alt"></i> 123 Space Ave, Galaxy City</p>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+      </div> <!-- End Contact Grid -->
+
+      <!-- Google Map Embed -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509619!2d144.9537353153159!3d-37.8172099797519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727dfedbb0adf3!2sSpace%20Museum!5e0!3m2!1sen!2s!4v1612324123456!5m2!1sen!2s" 
+          width="100%" height="350" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-vertical">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="planet.html">Planets</a></li>
+          <li><a href="stars.html">Stars</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" style="color: #66fcf1; text-shadow: 0 0 12px #66fcf1, 0 0 25px #45a29e; font-weight: bold;">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@astrouniverse.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Space Ave, Galaxy City</p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe for astronomy updates:</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom Text -->
+    <p class="footer-bottom">© 2025 Astro Universe. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
